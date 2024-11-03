@@ -1,0 +1,21 @@
+(footprint "CapacitivePad" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd)
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 75ff5c84-3f5e-4465-99f7-bad64fbe568e)
+  )
+  (fp_text value "CapacitivePad" (at 0 1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp a051b88f-c0a7-4114-99b4-d5fdfe54687e)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 8fc31171-0650-48c7-bc74-89226338131a)
+  )
+  (pad "1" smd rect (at -11.025 0) (size 16.05 9) (layers "F.Cu" "F.Mask") (tstamp 43cdbfab-7417-45a1-9ac0-e3a88436dab6))
+  (pad "1" smd roundrect (at 0 -7) (size 38.1 10) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 6550c8a4-abcb-4087-ba07-2bfd3d66bb4d))
+  (pad "1" smd roundrect (at 0 7) (size 38.1 10) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.25) (tstamp 80dca961-0e53-46c0-9d79-0e4b1e575f5d))
+  (pad "1" smd rect (at 11 0) (size 16.05 9) (layers "F.Cu" "F.Mask") (tstamp dbdb8a6b-bbc6-471c-93ef-07f1aa55d0bd))
+)
