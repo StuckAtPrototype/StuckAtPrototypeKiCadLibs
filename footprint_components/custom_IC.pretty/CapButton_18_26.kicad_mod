@@ -1,0 +1,78 @@
+(footprint "CapButton_18_26"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -8 -15 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "abde90dd-1379-478e-a11b-7525d2d1d3d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CapButton_18_26"
+		(at 0 16 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "494514a1-b5bb-4347-a2ec-dede5bc8f194")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "69994fb1-3473-4638-90ff-6c519afb5eb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1eded679-99c4-4227-848c-f0ba2a10e668")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_text user "${REFERENCE}"
+		(at 0 17.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2aa2c74f-ac34-4510-b322-e28dc51eb1c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 18 26)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "5be8b040-5535-4efe-8d03-ea0683e78745")
+	)
+	(embedded_fonts no)
+)

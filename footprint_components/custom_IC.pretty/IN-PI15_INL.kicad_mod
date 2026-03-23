@@ -5,20 +5,19 @@
 	(layer "F.Cu")
 	(tags "IN-PI15TAT5R5G5B ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 1.6 -0.2 90)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(hide yes)
 		(uuid "ccacb397-86ee-4354-8732-dfa2b236703b")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.635 0.635)
 				(thickness 0.15)
 			)
 		)
 	)
 	(property "Value" "IN-PI15_INL"
-		(at 0 0 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "bbfa32e3-95a7-4f1f-ac79-d6878852d21e")
@@ -30,7 +29,7 @@
 		)
 	)
 	(property "Footprint" "IN-PI15_INL"
-		(at 0 0 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -66,6 +65,17 @@
 		)
 	)
 	(attr smd)
+	(fp_circle
+		(center -1 -0.9)
+		(end -0.9 -1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f6b058d1-baf1-41d0-8dd6-6280cc5f612c")
+	)
 	(fp_line
 		(start -1.0084 -1.00838)
 		(end -1.0033 -1.00838)
@@ -249,7 +259,7 @@
 		(uuid "b71662f4-8bec-4d38-a29a-70eb1ab853ad")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "713ba080-8dc5-4608-bde8-9e2a8a5a62f7")
